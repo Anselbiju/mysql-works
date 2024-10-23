@@ -2,6 +2,13 @@ use school;
 
 desc STUDENT;
 
+create table STUDENT(
+  Roll-NO int,
+  Name varchar(20),
+  Mark int,
+  Grade varchar(5)
+  );
+
 insert into STUDENT values
 (1,'ansel',40,'A'),
 (2,'ans',45,'A+'),
