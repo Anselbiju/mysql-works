@@ -1,6 +1,14 @@
 use school;
 
-desc STUDENT;
+desc STUDENT; 
+-- student table is already created --
+-- for refernece can be used
+--CREATE TABLE STUDENT (
+   -- Id INT,
+   -- Name VARCHAR(30),
+   -- Marks INT,
+   -- Grade CHAR(2)
+-- );
 
 insert into STUDENT values
 (1,'ansel',40,'A'),
