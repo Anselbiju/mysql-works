@@ -106,7 +106,7 @@ FROM Customer;
 SELECT * FROM Customer_details;
 
 #4
-SET SQL_SAFE_UPDATES = 0;
+SET SQL_SAFE_UPDATES = 0; -- safe update is off ignore this line of query, move to next line shown below >>>>
 UPDATE Customer
 SET Phone_no = 974453562
 WHERE State = 'CA';
